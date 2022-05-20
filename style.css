@@ -302,3 +302,74 @@
     color: rgba(0, 0, 0, 0.5);
     margin-top: 24px;
 }
+
+.footer{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 96px 100px 63px 103px;
+}
+.footer_flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_flexbox h2{
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+.footer_flexbox p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 24px;
+}
+.camper_card{
+    margin: 0 117px 0 0;
+}
+.discover_card{
+    margin: 0 0 0 11px;
+}
+.become_card{
+    margin: 2px 0 0 8px;
+}
+.assistance_card{
+    margin: 2px 11px 0 0;
+}
+.camper_card h2{
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.camper_card h1{
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 16px;
+}
+.rights_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    border-top: 0.5px solid hsla(0, 0%, 0%, 0.205);
+}
+.rights_container p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.rights_flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0 0 0;
+}
+.right_p{
+    margin: 0 478px 0 0;
+}
