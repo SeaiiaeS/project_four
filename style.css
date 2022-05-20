@@ -192,3 +192,113 @@
 .prices_cart h3{
     margin-top: 40px;
 }
+
+
+.join_container{
+    width: 100%;
+    margin-top: 263px;
+    padding: 0 19px 0 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 126px;
+}
+.join_block h2{
+    width: 100%;
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    margin: -2px 116px 0 0;
+}
+.join_block p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 21px;
+}
+.join_block button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 49px 0 0 -2px;
+    padding: 20px 91.5px 20px 84.5px;
+    color: #ffffff;
+    background-color: #F78065;
+    border: none;
+    gap: 4px;
+}
+.join_flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+}
+.join_flexbox  img{
+    width: 230px;
+    height: 418px;
+    display: block;
+}
+.join_flexbox h2{
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.join_flexbox p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3F3D56;
+    margin-top: 8px;
+}
+.join_flexbox h3{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+    margin-top: 11px;
+}
+
+
+
+.advantages_container{
+    width: 100%;
+    padding: 0 19px 0 0;
+    margin-top: 228px;
+}
+.advantages_container h2{
+    font-family: "Merriweather";
+    font-size: 36px;
+    font-weight: 700;
+}
+.advantages_flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 108px;
+}
+.advantages_flexbox h2{
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 60px;
+}
+.advantages_flexbox p{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 24px;
+}
