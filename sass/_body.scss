@@ -1,0 +1,305 @@
+.body{
+    width: 100%;
+    background-color:$color_white;
+    padding: 400px 81px 250px 100px;
+}
+
+.promoting_container{
+    width: 100%;
+    padding: 0 0 0 19px;
+}
+
+.promoting_flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    div{
+        width:33%;
+    }
+
+    h2{
+        @include font-params (
+            'Merriweather',
+            bold, 
+            24px, 
+            30px
+        );
+        margin-top: 78px;
+    }
+
+    p{
+        @include font-params (
+            'Montserrat',
+            500, 
+            16px, 
+            20px
+        );
+        margin-top: 20px;
+        color:rgba(0, 0, 0, 0.5);
+    }
+
+    h3{
+        @include font-params (
+            'Montserrat',
+            700, 
+            18px, 
+            22px
+        );
+        margin-top: 20px;
+        color:$color_brown;
+    }
+}
+
+.promoting_cart{
+    p{
+        margin-top: 23px;
+    }
+
+    h3{
+        margin-top: 25px;
+    }
+}
+
+.additional_cart{
+    p{
+        margin-top: 14px;
+    }
+
+    h3{
+        margin-top: 25px;
+    }
+}
+
+.free_cart{
+    p{
+        margin-top: 14px;
+    }
+
+    h3{
+        margin-top: 25px;
+    }
+}
+
+.making_container{
+    width: 100%;
+    margin-top: 240px;
+    padding: 0 21px 0 0;
+
+    > h1{
+        @include font-params (
+            'Merriweather',
+            700, 
+            36px, 
+            inherit
+        );
+    }
+}
+
+.making_flexbox{
+    width: 100%;
+    margin: 108px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+
+    > div{
+        width: 25%;
+    }
+
+    svg{
+        display: block;
+    }
+
+    h2{
+        @include font-params (
+            'Merriweather',
+            700, 
+            22px, 
+            inherit
+        );
+        margin-top: 66px;
+    }
+
+    p{
+        @include font-params (
+            'Montserrat',
+            500, 
+            14px, 
+            24px
+        ); 
+        color:rgba(0, 0, 0, 0.5);
+        margin-top: 31px;
+    }
+
+    h3{
+        @include font-params (
+            'Montserrat',
+            700, 
+            18px, 
+            inherit
+        );
+        color:$color_brown;
+    }
+}
+
+.choose_cart h3{
+    margin-top: 16px;
+}
+
+.describe_cart h3{
+    margin-top: 40px;
+}
+
+.build_cart h3{
+    margin-top: 16px;
+}
+
+.prices_cart h3{
+    margin-top: 40px;
+}
+
+.join_container{
+    width: 100%;
+    margin-top: 263px;
+    padding: 0 19px 0 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 126px;
+
+    
+}
+
+.join_block{
+    h2{
+        width: 100%;
+        @include font-params (
+            'Merriweather',
+            700, 
+            36px, 
+            45px
+        );
+        margin: -2px 116px 0 0;
+    }
+
+    p{
+        @include font-params (
+            'Montserrat',
+            400, 
+            18px, 
+            22px
+        );
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 21px;
+    }
+
+    button{
+        @include font-params (
+            'Montserrat',
+            700, 
+            18px, 
+            inherit
+        );
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 49px 0 0 -2px;
+        padding: 20px 91.5px 20px 84.5px;
+        color: $color_white;
+        background-color: $color_brown;
+        border: none;
+        gap: 4px;
+    }
+}
+
+.join_flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+
+    img{
+        width: 230px;
+        height: 418px;
+        display: block;
+    }
+
+    h2{
+        @include font-params (
+            'Merriweather',
+            700, 
+            24px, 
+            30px
+        );
+        margin-top:24px;
+    }
+
+    p{
+        @include font-params (
+            'Montserrat',
+            400, 
+            14px, 
+            17px
+        );
+        color: #3F3D56;
+        margin-top: 8px;
+    }
+
+    h3{
+        @include font-params (
+            'Montserrat',
+            500, 
+            18px, 
+            22px
+        );
+        color: $color_brown;
+        margin-top: 11px;
+    }
+}
+
+.advantages_container{
+    width: 100%;
+    padding: 0 19px 0 0;
+    margin-top: 228px;
+
+    h2{
+        @include font-params (
+            'Merriweather',
+            700, 
+            36px,
+            inherit
+        );
+    }
+}
+
+.advantages_flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 108px;
+
+    h2{
+        @include font-params (
+            'Merriweather',
+            700, 
+            22px, 
+            28px
+        );
+        margin-top: 60px;
+    }
+
+    p{
+        @include font-params (
+            'Montserrat',
+            500, 
+            14px, 
+            24px
+        );
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 24px;
+    }
+
+}
