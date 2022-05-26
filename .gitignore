@@ -393,8 +393,8 @@ xcuserdata/
 
 ### ReactNative.Gradle Stack ###
 .gradle
-**/build/
-!src/**/build/
+# **/build/
+# !src/**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -517,7 +517,7 @@ buck-out/
 ### ReactNative.Android Stack ###
 # Gradle files
 .gradle/
-build/
+# build/
 
 # Local configuration file (sdk path, etc)
 local.properties

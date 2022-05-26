@@ -1,0 +1,80 @@
+.header{
+    width: 100%;
+    height: 650px;
+    background-image: url('../image/black_woman.jpg');
+    background-size: cover;
+    padding: 30px 122px 0 122px;
+
+    .user_container{
+        width: 100%;
+        height: 53px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .user_block{
+        width: 86px;
+        height: 53px;
+        background-color: $color_white;
+        border-radius: 26.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8.4px;
+        padding-left: 5px;
+    }
+}
+
+.find_out_container{
+    position: absolute;
+    left: 63px;
+    top: 384px;
+    background-color: $color_white;
+    padding: 96px 176px 75px 64px;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+
+    h2{
+        @include font-params (
+            'Merriweather',
+            bold, 
+            39px, 
+            49px
+        );
+
+        span{
+            color: $color_brown;
+        }
+    }
+
+    p{
+        @include font-params (
+            'Montserrat',
+            500, 
+            20px, 
+            24px
+        );
+        color: #000000;
+        opacity: 0.6;
+        margin-top: 29px;
+    }
+
+    button{
+        @include font-params (
+            'Montserrat',
+            700, 
+            18px, 
+            inherit
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 29px 0 0 -2px;
+        padding: 20px 77px 20px 70px;
+        color: $color_white;
+        background-color: $color_brown;
+        border: none;
+        gap: 8px;
+    }
+
+}
