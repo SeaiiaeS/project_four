@@ -5,9 +5,10 @@ const buildFolder= './build';
 const srcFolder= './src';
 
 
-const path = {
+export const path = {
 	build: {
         files: `${buildFolder}/`,
+        css:`${buildFolder}/css`
     },
 	src: {
         html: `${srcFolder}/index.html`,
