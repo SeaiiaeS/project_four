@@ -14,11 +14,16 @@ import { scss } from './gulp/tasks/scss.js'
 import { copyImg } from "./gulp/tasks/copyImg.js";
 import { server } from './gulp/tasks/server.js';
 
+const watch = () => {
+  gulp.watch(path.watch.html, html);
+  gulp.watch(path.watch.scss, scss);
+}
+
 
 const gulpDefaultFunction = gulp.series(
   clean,
   gulp.parallel(html, scss, copyImg ),
-  gulp.parallel(server)
+  gulp.parallel(server,watch)
 )
 
 gulp.task("default", gulpDefaultFunction);
