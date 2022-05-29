@@ -3,12 +3,15 @@ const rootFolder =nodePath.basename(nodePath.resolve())
 
 const buildFolder= './build';
 const srcFolder= './src';
+const imageFolder = `${srcFolder}/image/**`
 
 
 export const path = {
 	build: {
         files: `${buildFolder}/`,
-        css:`${buildFolder}/css`
+        cssFolder:`${buildFolder}/css`,
+        imageFolder:`${buildFolder}/image`,
+        html:`${buildFolder}/index.html`,
     },
 	src: {
         html: `${srcFolder}/index.html`,
@@ -20,6 +23,7 @@ export const path = {
     },
 	clean: buildFolder,
 	buildFolder: buildFolder,
+    imageFolder:imageFolder,
 	srcFolder: srcFolder,
 	rootFolder: rootFolder
 }

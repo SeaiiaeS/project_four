@@ -8,6 +8,7 @@ export const scss =(done) => {
         .pipe(sass({
             outputStyle: 'compressed'
         }))
-        .pipe(app.gulp.dest(app.path.build.css))
+        .pipe(app.gulp.dest(app.path.build.cssFolder))
+        .pipe(app.plugins.browsersync.stream());
     done()
 }
