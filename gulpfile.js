@@ -25,5 +25,10 @@ const gulpDefaultFunction = gulp.series(
   gulp.parallel(html, scss, copyImg ),
   gulp.parallel(server,watch)
 )
+const gulpBuild = gulp.series(
+  clean,
+  gulp.parallel(html, scss, copyImg ),
+)
 
 gulp.task("default", gulpDefaultFunction);
+gulp.task("build", gulpBuild);
